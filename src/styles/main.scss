@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
