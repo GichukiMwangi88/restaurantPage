@@ -9,7 +9,7 @@ const createRestaurantPage = () => {
 
   //create header for the page
   const h1 = document.createElement("h1");
-  h1.textContent = "East African Cuisine!";
+  h1.textContent = "East African Cuisine";
   pageContent.appendChild(h1);
 
   //add image to the page
@@ -18,6 +18,11 @@ const createRestaurantPage = () => {
   image.height = 300;
   image.width = 300;
   pageContent.appendChild(image);
+
+  //add paragraph to the page
+  const p1 = document.createElement("p");
+  p1.textContent = "Enjoy our East African dishes!";
+  pageContent.appendChild(p1);
 
   content.appendChild(pageContent);
 };
