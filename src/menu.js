@@ -7,6 +7,10 @@ const createMenu = () => {
 
   //create a list of menu items
 
+  const menuHeader = document.createElement("h2");
+  menuHeader.textContent = "Kenyan Classics";
+  pageContent.appendChild(menuHeader);
+
   const ugali = document.createElement("li");
   ugali.textContent = "Ugali";
   pageContent.appendChild(ugali);

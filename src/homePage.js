@@ -15,8 +15,8 @@ const createRestaurantPage = () => {
   //add image to the page and append
   const image = document.createElement("img");
   image.src = "foodImage.jpeg";
-  image.height = 300;
-  image.width = 300;
+  image.height = 400;
+  image.width = 400;
   pageContent.appendChild(image);
 
   //add paragraph to the page and append

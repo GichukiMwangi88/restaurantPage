@@ -5,6 +5,10 @@ const contactForm = () => {
   const pageContent = document.createElement("div");
   pageContent.classList.add("page-content");
 
+  // Create form header
+  const contactHeader = document.createElement("h2");
+  contactHeader.textContent = "Contact Us";
+
   // Create the form
   const form = document.createElement("form");
   form.setAttribute("id", "contact-form");
@@ -29,6 +33,7 @@ const contactForm = () => {
   submit.setAttribute("type", "submit");
 
   //Add the inputs to the form
+  form.appendChild(contactHeader);
   form.appendChild(name);
   form.appendChild(email);
   form.appendChild(message);
