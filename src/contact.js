@@ -2,6 +2,8 @@
 
 const contactForm = () => {
   const content = document.querySelector("#content");
+  const pageContent = document.createElement("div");
+  pageContent.classList.add("page-content");
 
   // Create the form
   const form = document.createElement("form");
@@ -32,8 +34,11 @@ const contactForm = () => {
   form.appendChild(message);
   form.appendChild(submit);
 
-  //Append the form to the DOM
-  content.appendChild(form);
+  // Add the form to the page content div
+  pageContent.appendChild(form);
+
+  //Append the page content div to the DOM
+  content.appendChild(pageContent);
 };
 
 export default contactForm;

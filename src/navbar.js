@@ -1,4 +1,7 @@
 // Create tabs at top of page
+import createMenu from "./menu";
+import contactForm from "./contact";
+import createRestaurantPage from "./homePage";
 
 const createNav = () => {
   // Grab the div content
@@ -32,6 +35,29 @@ const createNav = () => {
   content.appendChild(div1);
   content.appendChild(div2);
   content.appendChild(div3);
+
+  div1.addEventListener("click", (home) => {
+    clearContent();
+    createRestaurantPage();
+  });
+
+  div2.addEventListener("click", (menu) => {
+    clearContent();
+    createMenu();
+  });
+
+  div3.addEventListener("click", (contact) => {
+    clearContent();
+    contactForm();
+  });
+};
+// Clear page content
+const clearContent = () => {
+  const content = document.querySelector("#content");
+  const pageContent = document.querySelector(".page-content");
+  if (pageContent) {
+    content.removeChild(pageContent);
+  }
 };
 
 export default createNav;
