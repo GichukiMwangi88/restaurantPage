@@ -16,7 +16,7 @@
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Roboto&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n  box-sizing: content-box;\n  position: relative;\n}\n\nbody {\n  background-color: beige;\n  font-family: \"Merriweather\", serif;\n  display: flex;\n  min-height: 100vh;\n  flex-direction: column;\n  align-items: center;\n}\n\n.tab {\n  float: left;\n  padding: 0 20px;\n  cursor: pointer;\n  text-align: center;\n  line-height: 60px;\n  margin-right: 30px;\n  margin-bottom: 20px;\n}\n\n#home-btn, #menu-btn, #contact-btn {\n  background-color: white;\n  border-radius: 20px;\n}\n\n#home-btn:hover, #menu-btn:hover, #contact-btn:hover {\n  color: burlywood;\n}\n\n#content {\n  border: 1px solid #F1FBEF;\n  border-radius: 1rem;\n  border-width: thin;\n}\n\nform {\n  box-sizing: border-box;\n}\n\n.footer {\n  margin-top: auto;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restpage/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Roboto&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n  box-sizing: content-box;\n  background-color: #F4C009;\n}\n\nbody {\n  font-family: \"Merriweather\", serif;\n  font-weight: 500;\n  font-size: 20px;\n  display: flex;\n  min-height: 100vh;\n  flex-direction: column;\n  align-items: center;\n}\n\n.tab {\n  display: inline-block;\n  padding: 0 50px;\n  line-height: 50px;\n}\n\n#home-btn, #menu-btn, #contact-btn {\n  background-color: white;\n  border-radius: 20px;\n}\n\n#home-btn:hover, #menu-btn:hover, #contact-btn:hover {\n  color: burlywood;\n}\n\n.home-page {\n  margin-top: 100px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n}\n\n#mandazi {\n  border: none;\n}\n\n.menu {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#menu-item {\n  width: 50%;\n  height: 50%;\n  margin-top: 250px;\n}\n\n.contact-info {\n  display: grid;\n  place-items: center;\n  margin-top: 250px;\n}\n\n.footer {\n  margin-top: auto;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restpage/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Create a contact form\n\nconst contactForm = () => {\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  // Create form header\n  const contactHeader = document.createElement(\"h2\");\n  contactHeader.textContent = \"Contact Us\";\n\n  // Create the form\n  const form = document.createElement(\"form\");\n  form.setAttribute(\"id\", \"contact-form\");\n\n  //Create the name input\n  const name = document.createElement(\"input\");\n  name.setAttribute(\"name\", \"name\");\n  name.setAttribute(\"placeholder\", \"Your Name\");\n\n  //Create the email input\n  const email = document.createElement(\"input\");\n  email.setAttribute(\"name\", \"email\");\n  email.setAttribute(\"placeholder\", \"Your email\");\n\n  //Create the message input\n  const message = document.createElement(\"textarea\");\n  message.setAttribute(\"name\", \"message\");\n  message.setAttribute(\"placeholder\", \"Your message\");\n\n  //Create the submit button\n  const submit = document.createElement(\"input\");\n  submit.setAttribute(\"type\", \"submit\");\n\n  //Add the inputs to the form\n  form.appendChild(contactHeader);\n  form.appendChild(name);\n  form.appendChild(email);\n  form.appendChild(message);\n  form.appendChild(submit);\n\n  // Add the form to the page content div\n  pageContent.appendChild(form);\n\n  //Append the page content div to the DOM\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contactForm);\n\n\n//# sourceURL=webpack://restpage/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Create a contact form\n\nconst contactForm = () => {\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  // Create div for the contact info\n  const divContact = document.createElement(\"div\");\n  divContact.classList.add(\"contact-info\"); // for styling\n\n  // Add icon\n  const contactIcon = document.createElement(\"img\");\n  contactIcon.src = \"phone.png\";\n\n  // Create form header\n  const contactHeader = document.createElement(\"h3\");\n  contactHeader.textContent = \"Don't Contact Us\";\n\n  // Create paragraph content\n  const contactPar = document.createElement(\"p\");\n  contactPar.textContent = \"We'll call you 📲\";\n\n  // Append contactHeader to divContact\n  divContact.appendChild(contactIcon);\n  divContact.appendChild(contactHeader);\n  divContact.appendChild(contactPar);\n\n  // Add the form to the page content div\n  pageContent.appendChild(divContact);\n\n  //Append the page content div to the DOM\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contactForm);\n\n\n//# sourceURL=webpack://restpage/./src/contact.js?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module for creating Home Page\n\nconst createRestaurantPage = () => {\n  //Create a variable to hold the div content\n  // that you'all append your elements to\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  //create header for the page and append\n  const h1 = document.createElement(\"h1\");\n  h1.textContent = \"East African Cuisine\";\n  pageContent.appendChild(h1);\n\n  //add image to the page and append\n  const image = document.createElement(\"img\");\n  image.src = \"foodImage.jpeg\";\n  image.height = 400;\n  image.width = 400;\n  pageContent.appendChild(image);\n\n  //add paragraph to the page and append\n  const p1 = document.createElement(\"p\");\n  p1.textContent = \"Enjoy our East African dishes!\";\n  pageContent.appendChild(p1);\n\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createRestaurantPage);\n\n\n//# sourceURL=webpack://restpage/./src/homePage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module for creating Home Page\n\nconst createRestaurantPage = () => {\n  //Create a variable to hold the div content\n  // that you'all append your elements to\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  //Create a div to house the page content\n  const divHome = document.createElement(\"div\");\n  divHome.classList.add(\"home-page\");\n  pageContent.appendChild(divHome);\n\n  //add image to the page and append\n  const image = document.createElement(\"img\");\n  image.setAttribute(\"id\", \"mandazi\");\n  image.src = \"mandazi.png\";\n  image.height = \"300\";\n  image.width = \"300\";\n  divHome.appendChild(image);\n\n  //create header for the page and append\n  const h1 = document.createElement(\"h1\");\n  h1.textContent = \"Mandazi! 😋\";\n  divHome.appendChild(h1);\n\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createRestaurantPage);\n\n\n//# sourceURL=webpack://restpage/./src/homePage.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loadPage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./loadPage */ \"./src/loadPage.js\");\n/* harmony import */ var _assets_foodImage_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/foodImage.jpeg */ \"./src/assets/foodImage.jpeg\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\n\n\n\n// Load the page\n(0,_loadPage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack://restpage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loadPage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./loadPage */ \"./src/loadPage.js\");\n/* harmony import */ var _foodImage_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foodImage.jpeg */ \"./src/foodImage.jpeg\");\n/* harmony import */ var _backgroundImage_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./backgroundImage.jpeg */ \"./src/backgroundImage.jpeg\");\n/* harmony import */ var _mandazi_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mandazi.png */ \"./src/mandazi.png\");\n/* harmony import */ var _phone_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./phone.png */ \"./src/phone.png\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\n\n\n\n\n\n\n// Load the page\n(0,_loadPage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack://restpage/./src/index.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Create a list of menu items\n\nconst createMenu = () => {\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  //create a list of menu items\n\n  const menuHeader = document.createElement(\"h2\");\n  menuHeader.textContent = \"Kenyan Classics\";\n  pageContent.appendChild(menuHeader);\n\n  const ugali = document.createElement(\"li\");\n  ugali.textContent = \"Ugali\";\n  pageContent.appendChild(ugali);\n\n  const chapati = document.createElement(\"li\");\n  chapati.textContent = \"Chapati\";\n  pageContent.appendChild(chapati);\n\n  const githeri = document.createElement(\"li\");\n  githeri.textContent = \"Ugali\";\n  pageContent.appendChild(githeri);\n\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMenu);\n\n\n//# sourceURL=webpack://restpage/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Create a list of menu items\n\nconst createMenu = () => {\n  const content = document.querySelector(\"#content\");\n  const pageContent = document.createElement(\"div\");\n  pageContent.classList.add(\"page-content\");\n\n  //create a div for styling purposes\n\n  const divMenu = document.createElement(\"div\");\n  divMenu.classList.add(\"menu\");\n  pageContent.appendChild(divMenu);\n\n  const menuHeader = document.createElement(\"h2\");\n  menuHeader.setAttribute(\"id\", \"menu-item\");\n  menuHeader.textContent = \"Just Mandazi\";\n  divMenu.appendChild(menuHeader);\n\n  content.appendChild(pageContent);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMenu);\n\n\n//# sourceURL=webpack://restpage/./src/menu.js?");
 
 /***/ }),
 
@@ -170,13 +170,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/assets/foodImage.jpeg":
-/*!***********************************!*\
-  !*** ./src/assets/foodImage.jpeg ***!
-  \***********************************/
+/***/ "./src/backgroundImage.jpeg":
+/*!**********************************!*\
+  !*** ./src/backgroundImage.jpeg ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"foodImage.jpeg\";\n\n//# sourceURL=webpack://restpage/./src/assets/foodImage.jpeg?");
+eval("module.exports = __webpack_require__.p + \"backgroundImage.jpeg\";\n\n//# sourceURL=webpack://restpage/./src/backgroundImage.jpeg?");
+
+/***/ }),
+
+/***/ "./src/foodImage.jpeg":
+/*!****************************!*\
+  !*** ./src/foodImage.jpeg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"foodImage.jpeg\";\n\n//# sourceURL=webpack://restpage/./src/foodImage.jpeg?");
+
+/***/ }),
+
+/***/ "./src/mandazi.png":
+/*!*************************!*\
+  !*** ./src/mandazi.png ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"mandazi.png\";\n\n//# sourceURL=webpack://restpage/./src/mandazi.png?");
+
+/***/ }),
+
+/***/ "./src/phone.png":
+/*!***********************!*\
+  !*** ./src/phone.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"phone.png\";\n\n//# sourceURL=webpack://restpage/./src/phone.png?");
 
 /***/ })
 

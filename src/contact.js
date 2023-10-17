@@ -5,42 +5,29 @@ const contactForm = () => {
   const pageContent = document.createElement("div");
   pageContent.classList.add("page-content");
 
+  // Create div for the contact info
+  const divContact = document.createElement("div");
+  divContact.classList.add("contact-info"); // for styling
+
+  // Add icon
+  const contactIcon = document.createElement("img");
+  contactIcon.src = "phone.png";
+
   // Create form header
-  const contactHeader = document.createElement("h2");
-  contactHeader.textContent = "Contact Us";
+  const contactHeader = document.createElement("h3");
+  contactHeader.textContent = "Don't Contact Us";
 
-  // Create the form
-  const form = document.createElement("form");
-  form.setAttribute("id", "contact-form");
+  // Create paragraph content
+  const contactPar = document.createElement("p");
+  contactPar.textContent = "We'll call you 📲";
 
-  //Create the name input
-  const name = document.createElement("input");
-  name.setAttribute("name", "name");
-  name.setAttribute("placeholder", "Your Name");
-
-  //Create the email input
-  const email = document.createElement("input");
-  email.setAttribute("name", "email");
-  email.setAttribute("placeholder", "Your email");
-
-  //Create the message input
-  const message = document.createElement("textarea");
-  message.setAttribute("name", "message");
-  message.setAttribute("placeholder", "Your message");
-
-  //Create the submit button
-  const submit = document.createElement("input");
-  submit.setAttribute("type", "submit");
-
-  //Add the inputs to the form
-  form.appendChild(contactHeader);
-  form.appendChild(name);
-  form.appendChild(email);
-  form.appendChild(message);
-  form.appendChild(submit);
+  // Append contactHeader to divContact
+  divContact.appendChild(contactIcon);
+  divContact.appendChild(contactHeader);
+  divContact.appendChild(contactPar);
 
   // Add the form to the page content div
-  pageContent.appendChild(form);
+  pageContent.appendChild(divContact);
 
   //Append the page content div to the DOM
   content.appendChild(pageContent);

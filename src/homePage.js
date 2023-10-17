@@ -7,22 +7,23 @@ const createRestaurantPage = () => {
   const pageContent = document.createElement("div");
   pageContent.classList.add("page-content");
 
-  //create header for the page and append
-  const h1 = document.createElement("h1");
-  h1.textContent = "East African Cuisine";
-  pageContent.appendChild(h1);
+  //Create a div to house the page content
+  const divHome = document.createElement("div");
+  divHome.classList.add("home-page");
+  pageContent.appendChild(divHome);
 
   //add image to the page and append
   const image = document.createElement("img");
-  image.src = "foodImage.jpeg";
-  image.height = 400;
-  image.width = 400;
-  pageContent.appendChild(image);
+  image.setAttribute("id", "mandazi");
+  image.src = "mandazi.png";
+  image.height = "300";
+  image.width = "300";
+  divHome.appendChild(image);
 
-  //add paragraph to the page and append
-  const p1 = document.createElement("p");
-  p1.textContent = "Enjoy our East African dishes!";
-  pageContent.appendChild(p1);
+  //create header for the page and append
+  const h1 = document.createElement("h1");
+  h1.textContent = "Mandazi! 😋";
+  divHome.appendChild(h1);
 
   content.appendChild(pageContent);
 };

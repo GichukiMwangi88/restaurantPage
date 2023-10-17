@@ -5,23 +5,16 @@ const createMenu = () => {
   const pageContent = document.createElement("div");
   pageContent.classList.add("page-content");
 
-  //create a list of menu items
+  //create a div for styling purposes
+
+  const divMenu = document.createElement("div");
+  divMenu.classList.add("menu");
+  pageContent.appendChild(divMenu);
 
   const menuHeader = document.createElement("h2");
-  menuHeader.textContent = "Kenyan Classics";
-  pageContent.appendChild(menuHeader);
-
-  const ugali = document.createElement("li");
-  ugali.textContent = "Ugali";
-  pageContent.appendChild(ugali);
-
-  const chapati = document.createElement("li");
-  chapati.textContent = "Chapati";
-  pageContent.appendChild(chapati);
-
-  const githeri = document.createElement("li");
-  githeri.textContent = "Ugali";
-  pageContent.appendChild(githeri);
+  menuHeader.setAttribute("id", "menu-item");
+  menuHeader.textContent = "Just Mandazi";
+  divMenu.appendChild(menuHeader);
 
   content.appendChild(pageContent);
 };
