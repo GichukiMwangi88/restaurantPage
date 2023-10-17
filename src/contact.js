@@ -19,7 +19,7 @@ const contactForm = () => {
 
   // Create paragraph content
   const contactPar = document.createElement("p");
-  contactPar.textContent = "We'll call you 📲";
+  contactPar.textContent = "We'll contact you 📲";
 
   // Append contactHeader to divContact
   divContact.appendChild(contactIcon);

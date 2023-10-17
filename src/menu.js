@@ -11,6 +11,12 @@ const createMenu = () => {
   divMenu.classList.add("menu");
   pageContent.appendChild(divMenu);
 
+  const funnyGif = document.createElement("img");
+  funnyGif.src = "https://media.giphy.com/media/SasDDqOSRclNu/giphy.gif";
+  funnyGif.width = 300;
+  funnyGif.height = 300;
+  divMenu.appendChild(funnyGif);
+
   const menuHeader = document.createElement("h2");
   menuHeader.setAttribute("id", "menu-item");
   menuHeader.textContent = "Just Mandazi";
